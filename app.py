@@ -62,5 +62,6 @@ def view_users():
     users = User.query.all()
     return render_template('view_users.html', users=users)
 
+
 if __name__ == '__main__':
     app.run(debug=True)
