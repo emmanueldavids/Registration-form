@@ -1,0 +1,42 @@
+body {
+    font-family: serif, sans-serif;
+    background-color: #adadad;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 28px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    background-color: #0b1d30;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #b31200;
+    /* transition: 0.5s; */
+}
